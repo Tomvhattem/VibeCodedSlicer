@@ -1,0 +1,13 @@
+name: VibeCodedSlicer
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # Or your preferred Python version
+  - pip
+  - pip:
+    - trimesh
+    - numpy
+    - Pillow
+    - scipy
+    - plotly
+    - tqdm
